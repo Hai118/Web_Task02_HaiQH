@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Management System</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-custom py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold fs-4" href="index.html">Management System</a>
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+              Home
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end">
+              <li><a class="dropdown-item" href="login.html">Login</a></li>
+              <li><a class="dropdown-item" href="#">Sign Up</a></li>
+              <li><a class="dropdown-item" href="#">Help</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" style="background-image: url('resources/photo-1454165804606-c3d57bc86b40.avif');">
+        <div class="carousel-caption">
+          <p class="hero-subtitle">WORK SMARTER</p>
+          <h1 class="hero-title">Achieve Your Goals</h1>
+          <p class="hero-desc">Track progress, manage information, and improve productivity with a clear and organized workflow.</p>
+          <a href="login.html" class="btn btn-primary-custom">Login Now &rarr;</a>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('resources/photo-1521737711867-e3b97375f902.jpg');">
+        <div class="carousel-caption">
+          <p class="hero-subtitle">WORK TOGETHER</p>
+          <h1 class="hero-title">Better Team Collaboration</h1>
+          <p class="hero-desc">Keep your team connected, organize responsibilities, and manage tasks in one convenient place.</p>
+          <a href="#" class="btn btn-primary-custom">Join Us &rarr;</a>
+        </div>
+      </div>
+      <div class="carousel-item" style="background-image: url('resources/photo-1497366754035-f200968a6e72.avif');">
+        <div class="carousel-caption">
+          <p class="hero-subtitle">WELCOME TO OUR PLATFORM</p>
+          <h1 class="hero-title">Management Made Simple</h1>
+          <p class="hero-desc">Simplify your work, stay organized, and achieve more with our easy-to-use management system.</p>
+          <a href="#" class="btn btn-primary-custom">Get Started &rarr;</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  <section class="py-5 my-3">
+    <div class="container">
+      <div class="text-center mb-5">
+        <span class="text-uppercase text-secondary fw-bold small">OUR GOAL</span>
+        <h2 class="fw-bold mt-1">Goal of This Website</h2>
+        <p class="text-muted mx-auto" style="max-width: 700px;">
+          Our goal is to provide a simple, secure, and efficient management system that helps users organize their work, manage information, track progress, and improve productivity — all in one place.
+        </p>
+      </div>
+
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-5">
+          <img src="resources/photo-1497366811353-6870744d04b2.avif" alt="Conference Room" class="img-fluid rounded-4 shadow-sm">
+        </div>
+        <div class="col-lg-7">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="card p-3 feature-card h-100">
+                <div class="icon-box"><i class="bi bi-people"></i></div>
+                <h5 class="fw-bold">Easy to Use</h5>
+                <p class="text-muted small mb-0">A simple and clear interface for every user.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3 feature-card h-100">
+                <div class="icon-box"><i class="bi bi-shield-check"></i></div>
+                <h5 class="fw-bold">Secure</h5>
+                <p class="text-muted small mb-0">Keep information protected with appropriate security.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3 feature-card h-100">
+                <div class="icon-box"><i class="bi bi-lightning"></i></div>
+                <h5 class="fw-bold">Efficient</h5>
+                <p class="text-muted small mb-0">Save time by keeping tasks and information organized.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card p-3 feature-card h-100">
+                <div class="icon-box"><i class="bi bi-graph-up-arrow"></i></div>
+                <h5 class="fw-bold">Better Productivity</h5>
+                <p class="text-muted small mb-0">Track progress and work toward your goals.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="py-5 text-center">
+    <div class="container">
+      <h3 class="fw-bold">Ready to Get Started?</h3>
+      <p class="text-muted mb-4">Create your account and start organizing your work today.</p>
+      <a href="login.html" class="btn btn-primary-custom px-4 py-2">Create an Account</a>
+    </div>
+  </section>
+
+  <footer class="text-center py-4">
+    <div class="container">
+      <h5 class="fw-bold text-white mb-2">Management System</h5>
+      <p class="small mb-0">&copy; 2026 Management System. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
